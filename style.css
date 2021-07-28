@@ -24,7 +24,7 @@ h1 {
 }
 
 h2 {
-    color: #535b77;
+    color: #8d9ed8;
     font-size: 22px;
     font-weight: 800;
 }
@@ -72,6 +72,26 @@ a:hover {
   list-style: none;
   padding-left: 0px;
 }
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.bouton {
+    background-color: #363a66;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    font-size: 22;
+    text-decoration: none;
+}
+
+.bouton:hover {
+  background-color: #686e85;
+  color: white;
+}
+
 
 .list-inline > li {
   display: inline-block;
